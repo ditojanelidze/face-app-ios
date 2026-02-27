@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0336653FD59F524475A3973F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69675E03828CEE1A3F678C69 /* AuthManager.swift */; };
+		117DD0B5D97AD95B40A66BBB /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23187037184480B6F69AAA86 /* AuthenticationView.swift */; };
+		1F4CDC8F4EB925EBAA2B978B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622276406418FED4FC55D526 /* User.swift */; };
+		241945AF898A954A242BE70C /* AdminApprovalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406E99FBB59E4F0CD21F9CFA /* AdminApprovalDetailView.swift */; };
+		336585949684D331B3E8F21E /* AdminVenuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C22E2EB94593244A44DDF9 /* AdminVenuesView.swift */; };
+		34EDFB48D773644F583BEE7F /* AdminMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC7E4B1F1EB9ACB97C2E37 /* AdminMainTabView.swift */; };
+		392A575568FF2C51FCE051B0 /* ApprovalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EC43261546D4953406196 /* ApprovalDetailView.swift */; };
+		48457C339B44AF55DFEA47C6 /* AdminProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B53ED5C807624BD25F34D /* AdminProfileView.swift */; };
+		4B27811EBDF4202A46A1E218 /* ApprovalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBCB97B2A11388A85CBBA8 /* ApprovalService.swift */; };
+		5313D0811892E2961E594253 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85A0903B50C8AD59B5C33DE /* EditProfileView.swift */; };
+		58D81C64AEA056ADF3C6DCF8 /* AdminVenueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07AF8A3AF876E34254D93C /* AdminVenueDetailView.swift */; };
+		65309B6C0CD8949C148A024D /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F92432A3F59232A640498D /* APIConfig.swift */; };
+		682900FFE874F6E5ED83846C /* VenueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC33FF4C4A3EAF208625B45 /* VenueDetailView.swift */; };
+		6D681F3176EA1D0EFDFFD803 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9438FBB996630BA7D752E4 /* Event.swift */; };
+		77003B098D1751FE088FD9D3 /* AdminService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40537322FAD756321979786E /* AdminService.swift */; };
+		7E549DBE0A45C425FA41B1CC /* VenuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A3ABD2B5652C498DEA4A /* VenuesView.swift */; };
+		907833556633F7D7DA8B224F /* Approval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D9738B2EAB6EABA276C47 /* Approval.swift */; };
+		A0C235C730D46E4B23B20180 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53B04E19400E4702DA23D3 /* MainTabView.swift */; };
+		B21257BC7150F6B507C2CC87 /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C08FCE5ED537C7681CF2C /* VenueService.swift */; };
+		B4980F2A3E717E341A24C184 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502BE88C6A673413426904D /* ProfileView.swift */; };
+		BC1F65FFAA71B14512E79C00 /* ApprovalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9E65EAD5B582D1852C513 /* ApprovalsView.swift */; };
+		E20EDB64CF92455FBE39CF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684216F4A228DAF893E07128 /* Assets.xcassets */; };
+		E2DAD6BE4FE79420ABB10726 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D128CDB4224303C9454572F /* APIService.swift */; };
+		E8922C611BD7A096A63DEFAA /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AB2D41C5DA1D99DC0D7010 /* KeychainService.swift */; };
+		F068AD7052BDE1A429F40E46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AC58F467BCC1E51554449 /* ContentView.swift */; };
+		F11B76C8D8ADEA775F4EA65C /* AdminModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6162D586D5E0695655087 /* AdminModels.swift */; };
+		FA74A9BA6D5064B2419AD266 /* FaceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80812F8813EC79CA5534368E /* FaceAppApp.swift */; };
+		FEAB733EB606D19B80856DBC /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744BCA9270D3C2606439922C /* Venue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		155D9738B2EAB6EABA276C47 /* Approval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Approval.swift; sourceTree = "<group>"; };
+		23187037184480B6F69AAA86 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		2502BE88C6A673413426904D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		29C9E65EAD5B582D1852C513 /* ApprovalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalsView.swift; sourceTree = "<group>"; };
+		33F92432A3F59232A640498D /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		40537322FAD756321979786E /* AdminService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminService.swift; sourceTree = "<group>"; };
+		406E99FBB59E4F0CD21F9CFA /* AdminApprovalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminApprovalDetailView.swift; sourceTree = "<group>"; };
+		4CFC7E4B1F1EB9ACB97C2E37 /* AdminMainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMainTabView.swift; sourceTree = "<group>"; };
+		5D128CDB4224303C9454572F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		622276406418FED4FC55D526 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		639B5A0DB3C54A0625B031BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		684216F4A228DAF893E07128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69675E03828CEE1A3F678C69 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		6C6C08FCE5ED537C7681CF2C /* VenueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
+		6DBBCB97B2A11388A85CBBA8 /* ApprovalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalService.swift; sourceTree = "<group>"; };
+		73AB2D41C5DA1D99DC0D7010 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		744BCA9270D3C2606439922C /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		7A53B04E19400E4702DA23D3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		80812F8813EC79CA5534368E /* FaceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAppApp.swift; sourceTree = "<group>"; };
+		9F9EC43261546D4953406196 /* ApprovalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalDetailView.swift; sourceTree = "<group>"; };
+		A83AC58F467BCC1E51554449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C102BF702D258B57A14D4EDD /* FaceApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD07AF8A3AF876E34254D93C /* AdminVenueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVenueDetailView.swift; sourceTree = "<group>"; };
+		D72E3851EBBA6EF36BD02DD2 /* FaceApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FaceApp.entitlements; sourceTree = "<group>"; };
+		DE24A3ABD2B5652C498DEA4A /* VenuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesView.swift; sourceTree = "<group>"; };
+		DFB6162D586D5E0695655087 /* AdminModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModels.swift; sourceTree = "<group>"; };
+		E54B53ED5C807624BD25F34D /* AdminProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfileView.swift; sourceTree = "<group>"; };
+		ED9438FBB996630BA7D752E4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F2C22E2EB94593244A44DDF9 /* AdminVenuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVenuesView.swift; sourceTree = "<group>"; };
+		F85A0903B50C8AD59B5C33DE /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		FCC33FF4C4A3EAF208625B45 /* VenueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3708F4D71063AE8A80CDE637 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A83AC58F467BCC1E51554449 /* ContentView.swift */,
+				80812F8813EC79CA5534368E /* FaceAppApp.swift */,
+				7A53B04E19400E4702DA23D3 /* MainTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5A8E5CAF9DCDCD0765FA5A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6162D586D5E0695655087 /* AdminModels.swift */,
+				155D9738B2EAB6EABA276C47 /* Approval.swift */,
+				ED9438FBB996630BA7D752E4 /* Event.swift */,
+				622276406418FED4FC55D526 /* User.swift */,
+				744BCA9270D3C2606439922C /* Venue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		808FE8E1C07923E6CDA12E38 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40537322FAD756321979786E /* AdminService.swift */,
+				33F92432A3F59232A640498D /* APIConfig.swift */,
+				5D128CDB4224303C9454572F /* APIService.swift */,
+				6DBBCB97B2A11388A85CBBA8 /* ApprovalService.swift */,
+				69675E03828CEE1A3F678C69 /* AuthManager.swift */,
+				73AB2D41C5DA1D99DC0D7010 /* KeychainService.swift */,
+				6C6C08FCE5ED537C7681CF2C /* VenueService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		958EEA267C91AD7791535BCE /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				406E99FBB59E4F0CD21F9CFA /* AdminApprovalDetailView.swift */,
+				4CFC7E4B1F1EB9ACB97C2E37 /* AdminMainTabView.swift */,
+				E54B53ED5C807624BD25F34D /* AdminProfileView.swift */,
+				CD07AF8A3AF876E34254D93C /* AdminVenueDetailView.swift */,
+				F2C22E2EB94593244A44DDF9 /* AdminVenuesView.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		AE0193F0E9B9191A30A5416F = {
+			isa = PBXGroup;
+			children = (
+				FFEC919B69E378B3403F72F7 /* FaceApp */,
+				C63CC92148A195C3F1717172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EF2A7F078DE8475638F58E /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				FCC33FF4C4A3EAF208625B45 /* VenueDetailView.swift */,
+				DE24A3ABD2B5652C498DEA4A /* VenuesView.swift */,
+			);
+			path = Venues;
+			sourceTree = "<group>";
+		};
+		BC2A1A132E68DBF4C5BF935A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F85A0903B50C8AD59B5C33DE /* EditProfileView.swift */,
+				2502BE88C6A673413426904D /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C63CC92148A195C3F1717172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C102BF702D258B57A14D4EDD /* FaceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DABE39D168FDA24AC67FF7 /* Approvals */ = {
+			isa = PBXGroup;
+			children = (
+				9F9EC43261546D4953406196 /* ApprovalDetailView.swift */,
+				29C9E65EAD5B582D1852C513 /* ApprovalsView.swift */,
+			);
+			path = Approvals;
+			sourceTree = "<group>";
+		};
+		E563F029BA95D28EF48E0BFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				958EEA267C91AD7791535BCE /* Admin */,
+				C7DABE39D168FDA24AC67FF7 /* Approvals */,
+				E723DB4C04893B37E3ED0FCB /* Auth */,
+				BC2A1A132E68DBF4C5BF935A /* Profile */,
+				B5EF2A7F078DE8475638F58E /* Venues */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E723DB4C04893B37E3ED0FCB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				23187037184480B6F69AAA86 /* AuthenticationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FFEC919B69E378B3403F72F7 /* FaceApp */ = {
+			isa = PBXGroup;
+			children = (
+				684216F4A228DAF893E07128 /* Assets.xcassets */,
+				D72E3851EBBA6EF36BD02DD2 /* FaceApp.entitlements */,
+				639B5A0DB3C54A0625B031BE /* Info.plist */,
+				3708F4D71063AE8A80CDE637 /* App */,
+				5A8E5CAF9DCDCD0765FA5A75 /* Models */,
+				808FE8E1C07923E6CDA12E38 /* Services */,
+				E563F029BA95D28EF48E0BFD /* Views */,
+			);
+			path = FaceApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E35AFD8057A03310140CC6 /* FaceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830801BB12B924E412BCD8DE /* Build configuration list for PBXNativeTarget "FaceApp" */;
+			buildPhases = (
+				2E4FBB4FFF415396175009C3 /* Sources */,
+				6280142D5D70EE7B433F34AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceApp;
+			packageProductDependencies = (
+			);
+			productName = FaceApp;
+			productReference = C102BF702D258B57A14D4EDD /* FaceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A586BF8C5ABF858E99A522A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00E35AFD8057A03310140CC6 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF05C178718FE1613471D0D3 /* Build configuration list for PBXProject "FaceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AE0193F0E9B9191A30A5416F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00E35AFD8057A03310140CC6 /* FaceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6280142D5D70EE7B433F34AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20EDB64CF92455FBE39CF33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4FBB4FFF415396175009C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65309B6C0CD8949C148A024D /* APIConfig.swift in Sources */,
+				E2DAD6BE4FE79420ABB10726 /* APIService.swift in Sources */,
+				241945AF898A954A242BE70C /* AdminApprovalDetailView.swift in Sources */,
+				34EDFB48D773644F583BEE7F /* AdminMainTabView.swift in Sources */,
+				F11B76C8D8ADEA775F4EA65C /* AdminModels.swift in Sources */,
+				48457C339B44AF55DFEA47C6 /* AdminProfileView.swift in Sources */,
+				77003B098D1751FE088FD9D3 /* AdminService.swift in Sources */,
+				58D81C64AEA056ADF3C6DCF8 /* AdminVenueDetailView.swift in Sources */,
+				336585949684D331B3E8F21E /* AdminVenuesView.swift in Sources */,
+				907833556633F7D7DA8B224F /* Approval.swift in Sources */,
+				392A575568FF2C51FCE051B0 /* ApprovalDetailView.swift in Sources */,
+				4B27811EBDF4202A46A1E218 /* ApprovalService.swift in Sources */,
+				BC1F65FFAA71B14512E79C00 /* ApprovalsView.swift in Sources */,
+				0336653FD59F524475A3973F /* AuthManager.swift in Sources */,
+				117DD0B5D97AD95B40A66BBB /* AuthenticationView.swift in Sources */,
+				F068AD7052BDE1A429F40E46 /* ContentView.swift in Sources */,
+				5313D0811892E2961E594253 /* EditProfileView.swift in Sources */,
+				6D681F3176EA1D0EFDFFD803 /* Event.swift in Sources */,
+				FA74A9BA6D5064B2419AD266 /* FaceAppApp.swift in Sources */,
+				E8922C611BD7A096A63DEFAA /* KeychainService.swift in Sources */,
+				A0C235C730D46E4B23B20180 /* MainTabView.swift in Sources */,
+				B4980F2A3E717E341A24C184 /* ProfileView.swift in Sources */,
+				1F4CDC8F4EB925EBAA2B978B /* User.swift in Sources */,
+				FEAB733EB606D19B80856DBC /* Venue.swift in Sources */,
+				682900FFE874F6E5ED83846C /* VenueDetailView.swift in Sources */,
+				B21257BC7150F6B507C2CC87 /* VenueService.swift in Sources */,
+				7E549DBE0A45C425FA41B1CC /* VenuesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		205E0E4E9C5878274F9AF7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2E65290D939893652CCDBF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceApp/FaceApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FaceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceapp.nightlife;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58169CFA200FAA8A28F460BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceApp/FaceApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FaceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceapp.nightlife;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CD0B191891A4B9DE150363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830801BB12B924E412BCD8DE /* Build configuration list for PBXNativeTarget "FaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58169CFA200FAA8A28F460BB /* Debug */,
+				2E65290D939893652CCDBF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF05C178718FE1613471D0D3 /* Build configuration list for PBXProject "FaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD0B191891A4B9DE150363 /* Debug */,
+				205E0E4E9C5878274F9AF7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A586BF8C5ABF858E99A522A6 /* Project object */;
+}
